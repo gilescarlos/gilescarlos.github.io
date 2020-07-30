@@ -60,6 +60,7 @@ scrollLinks.forEach(function (link) {
         let position = element.offsetTop;
         if (window.innerWidth < 800) {
             position = position - containerHeight;
+            navbar.classList.remove("fixed-nav");
             if(!fixedNav) {
                 position = position - containerHeight; 
             }
