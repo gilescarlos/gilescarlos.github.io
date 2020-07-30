@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll</title>
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.12.0-web/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="home">
+      <!-- navbar -->
+      <nav id="nav">
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            <img src="./images/logo.png" class="logo" alt="logo" />
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- links -->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#home" class="scroll-link">home</a>
+              </li>
+              <li>
+                <a href="#about" class="scroll-link">about</a>
+              </li>
+              <li>
+                <a href="#projects" class="scroll-link">projects</a>
+              </li>
+              <li>
+                <a href="#interests" class="scroll-link">interests</a>
+              </li>
+              <li>
+                <a href="#contact" class="scroll-link">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- banner -->
+      <div class="banner">
+        <div class="container">
+          <h1>Giles Carlos</h1>
+          <p>
+            I'm a Data Science major from the Bay Area currently attending UC Irvine hoping to give myself a platform to display past projects and my interests. 
+          </p>
+          <a href="#projects" class="scroll-link btn btn-white">View Projects</a>
+        </div>
+      </div>
+    </header>
+    <!-- about -->
+    <section id="about" class="section">
+      <div class="title">
+        <h2>about <span>me</span></h2>
+      </div>
+      <div class="about-center section-center">
+        <article class="about-img">
+          <img src="./images/Young.JPG" alt="about picture" />
+        </article>
+        <article class="about">
+          <!-- button container -->
+          <div class="btn-container">
+            <button class="tab-btn active" data-id="childhood">childhood</button>
+            <button class="tab-btn" data-id="education">education</button>
+            <button class="tab-btn" data-id="goals">goals</button>
+          </div>
+          <article class="about-content">
+            <!-- single item -->
+              <div class="content active" id="childhood">
+                <h4>childhood</h4>
+                <p>
+                  Raised the youngest of three, I grew up living with my parents
+                  and two older sisters in Pittsburg, CA. 
+                </p>
+              </div>          
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content" id="education">
+              <h4>education</h4>
+              <p>
+                I went to St. Peter Martyr School in Pittsburg, CA from pre-k to 8th grade. 
+                For high school I attended De La Salle High School in Concord, CA. After 
+                graduating from there I went to Cal Poly Pomona for two years before deciding
+                to transfer to UC Irvine where I am currently studying. 
+              </p>
+            </div>          
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content" id="goals">
+              <h4>goals</h4>
+              <p>
+                I hope to 
+              </p>
+            </div>          
+          <!-- end of single item -->
+          </article>
+        </article>
+      </div>
+    </section>
+    <!-- projects -->
+    <section id="projects" class="section">
+      <div class="title">
+        <h2>past <span>projects</span></h2>
+      </div>
+    </section>
+     <!-- interests -->
+     <section id="interests" class="section">
+      <div class="title">
+        <h2>my <span>interests</span></h2>
+      </div>
+    </section>
+    <!-- contact -->
+    <section id="contact" class="section">
+      <div class="title">
+        <h2>contact <span>me</span></h2>
+      </div>
+      <div class="contact-box">
+        <!-- single contact -->
+        <article class="contact">
+          <!-- contact title -->
+          <div class="contact-title">
+            <p>Email</p>
+            <button type="button" class="contact-btn">
+              <span class="plus-icon">
+                <i class="far fa-plus-square"></i>
+              </span>
+              <span class="minus-icon">
+                <i class="far fa-minus-square"></i>
+              </span>
+            </button>
+          </div>
+          <!-- contact text -->
+          <div class="contact-text">
+            <p>
+              gilescarlos32@gmail.com
+            </p>
+          </div>
+        </article>
+        <!-- end of single contact -->
+        <!-- single contact -->
+        <article class="contact">
+          <!-- contact title -->
+          <div class="contact-title">
+            <p>Mobile</p>
+            <button type="button" class="contact-btn">
+              <span class="plus-icon">
+                <i class="far fa-plus-square"></i>
+              </span>
+              <span class="minus-icon">
+                <i class="far fa-minus-square"></i>
+              </span>
+            </button>
+          </div>
+          <!-- contact text -->
+          <div class="contact-text">
+            <p>
+              (925) 658-2051
+            </p>
+          </div>
+        </article>
+        <!-- end of single contact -->
+        <!-- single contact -->
+        <article class="contact">
+          <!-- contact title -->
+          <div class="contact-title">
+            <p>Social Media</p>
+            <!-- button -->
+            <button type="button" class="contact-btn">
+              <span class="plus-icon">
+                <i class="far fa-plus-square"></i>
+              </span>
+              <span class="minus-icon">
+                <i class="far fa-minus-square"></i>
+              </span>
+            </button>
+          </div>
+          <!-- contact text -->
+          <div class="contact-text">
+            <p>
+              Instagram - gilescarlos32 <br> 
+              LinkedIn - www.linkedin.com/in/giles-pierre-carlos
+            </p>
+          </div>
+        </article>
+        <!-- end of single contact -->
+        <!-- single contact -->
+        <article class="contact">
+          <!-- contact title -->
+          <div class="contact-title">
+            <p>Github</p>
+            <!-- button -->
+            <button type="button" class="contact-btn">
+              <span class="plus-icon">
+                <i class="far fa-plus-square"></i>
+              </span>
+              <span class="minus-icon">
+                <i class="far fa-minus-square"></i>
+              </span>
+            </button>
+          </div>
+          <!-- contact text -->
+          <div class="contact-text">
+            <p>
+              github.com/gilescarlos32
+            </p>
+          </div>
+        </article>
+        <!-- end of single contact -->
+    </section>
+    <!-- footer -->
+    <footer class="section">
+      <p>
+        copyright &copy; Giles Pierre Nunez Carlos
+        <span id="date"></span>. all rights reserved
+      </p>
+    </footer>
+    <a class="scroll-link top-link" href="#home">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
