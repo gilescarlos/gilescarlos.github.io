@@ -728,7 +728,7 @@ Interests
   border: 0.25rem solid var(--clr-gold);
   border-radius: var(--radius);
 }
-.interest-info header {
+.interest-info interest-header {
   display: flex;
   justify-content: space-between;
   border-bottom: 0.5px dotted var(--clr-grey-5);

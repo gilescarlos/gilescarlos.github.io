@@ -242,10 +242,10 @@ function displayInterests(interests) {
     return `<article class="interest">
       <img src=${interest.img} class="photo" alt=${interest.name} />
       <div class="interest-info">
-        <header>
+        <interest-header>
           <h4>${interest.name}</h4>
           <h4 class="year">Est. ${interest.year} </h4>
-        </header>
+        </interest-header>
         <p class="interest-text">
           ${interest.desc}
         </p>
