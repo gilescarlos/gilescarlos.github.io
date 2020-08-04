@@ -614,14 +614,14 @@ main {
   place-items: center;
   border-radius: 50%;
   transform: translateY(25%);
-  background: var(--clr-primary-5);
+  background: var(--clr-primary-2);
   color: var(--clr-white);
 }
 .img-container::before {
   content: "";
   width: 100%;
   height: 100%;
-  background: var(--clr-primary-5);
+  background: var(--clr-primary-2);
   position: absolute;
   top: -0.25rem;
   right: -0.5rem;
@@ -633,7 +633,7 @@ main {
 #language {
   margin-bottom: 0.5rem;
   text-transform: uppercase;
-  color: var(--clr-primary-5);
+  color: var(--clr-primary-2);
   font-size: 0.85rem;
 }
 #info {
@@ -651,7 +651,7 @@ main {
 }
 .prev-btn:hover,
 .next-btn:hover {
-  color: var(--clr-primary-5);
+  color: var(--clr-primary-2);
 }
 .random-btn {
   margin-top: 0.5rem;
