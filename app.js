@@ -229,7 +229,7 @@ const interests = [
 ];
 
 const sectionCenter = document.querySelector('.interests-section-center');
-const container = document.querySelector('.interests-btn-container')
+const container = document.querySelector('.interest-btn-container')
   
 // load items
 window.addEventListener('DOMContentLoaded', function () {
