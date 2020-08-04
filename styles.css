@@ -575,7 +575,7 @@ main {
   width: 80vw;
   max-width: var(--fixed-width);
 }
-.review {
+.project {
   background: var(--clr-white);
   padding: 1.5rem 2rem;
   border-radius: var(--radius);
@@ -583,7 +583,7 @@ main {
   transition: var(--transition);
   text-align: center;
 }
-.review:hover {
+.project:hover {
   box-shadow: var(--dark-shadow);
 }
 .img-container {
@@ -594,7 +594,7 @@ main {
   margin: 0 auto;
   margin-bottom: 1.5rem;
 }
-#person-img {
+#project-img {
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
