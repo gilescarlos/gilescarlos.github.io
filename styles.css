@@ -660,12 +660,12 @@ main {
   text-transform: capitalize;
   border-radius: var(--radius);
   transition: var(--transition);
-  border-color: var(--clr-secondary);;
+  border-color: var(--clr-secondary);
   cursor: pointer;
 }
 .random-btn:hover {
-  background: var(--clr-secondary);;
-  color: var(--clr-white);
+  background: var(--clr-white);
+  color: var(--clr-secondary);
 }
 
 /*
@@ -706,8 +706,8 @@ Interests
   transition: var(--transition);
 }
 .filter-btn:hover {
-  background: var(--clr-secondary);;
-  color: var(--clr-white);
+  background: var(--clr-white);
+  color: var(--clr-primary-1);
 }
 .interests-section-center {
   width: 90vw;

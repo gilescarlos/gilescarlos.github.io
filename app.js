@@ -181,7 +181,7 @@ const interests = [
   {
     id: 1,
     name: "Wakeboarding",
-    category: "Sports",
+    category: "Athletics",
     year: 2018,
     img: "./images/wakeboarding.jpg",
     desc: `The past couple of summers I was given the opportunity to try out wakeboarding consistently for the first time and it really helped me develop an appreciation for watersports.`
@@ -189,7 +189,7 @@ const interests = [
   {
     id: 2,
     name: "Snowboarding",
-    category: "Sports",
+    category: "Athletics",
     year: 2019,
     img: "./images/snowboarding.jpg",
     desc: `Similar to my experience with wakeboarding, I recently developed an appreciation for snow sports and went multiple weeks in the last month of winter. `
@@ -197,7 +197,7 @@ const interests = [
   {
     id: 3,
     name: "Basketball",
-    category: "Sports",
+    category: "Athletics",
     year: 2008,
     img: "./images/basketball.jpg",
     desc: `Basketball was the first sport I ever loved and to this day it continues to be a big part of my life. Even though my playing career is over, I began officiating intramural games to stay connected to the game and plan on officiating high school. `
@@ -205,34 +205,58 @@ const interests = [
   {
     id: 4,
     name: "Bowling",
-    category: "Sports",
+    category: "Athletics",
     year: 2011,
     img: "./images/bowling.jpg",
     desc: `The summer before leaving for college my friends and I knew we had to spend as much time together as possible. We spend most of that time at our local bowling alley and we all gained a love for the game.`
   },
   {
     id: 5,
-    name: "Clothing",
+    name: "KITH",
     category: "Fashion",
-    year: 2014,
+    year: 2011,
     img: "./images/Kith.jpg",
-    desc: `The way I dressed was always important to me but it wasn't until I had my first job that I was really able to go out build a wardrobe that I liked and was unique to me. Whether it be from hypebeast brands such as Supreme or KITH or quality essential brands like John Elliott or FOG Essentials, each clothing piece I own has some sentimental value.`,
-  },
-  {
-    id: 5,
-    name: "Powerbuilding",
-    category: "Sports",
-    year: 2016,
-    img: "./images/Weights.jpeg",
-    desc: `I started lifting when I stopped playing basketball competitively and I needed a way to stay active. After noticing the results I've been addicted ever since and even built a home gym.`,
+    desc: `Established in 2011, KITH operates on two planes - a multifunctional lifestyle brand for men, women, and kids, as well as a progressive retail establishment. Kith offers an array of premium products, ranging from our own in-house label to a curated selection of multi-brand apparel and footwear`,
   },
   {
     id: 6,
+    name: "Powerbuilding",
+    category: "Athletics",
+    year: 2016,
+    img: "./images/Weights.jpg",
+    desc: `I started lifting when I stopped playing basketball competitively and I needed a way to stay active. After noticing the results I've been addicted ever since and even built a home gym.`,
+  },
+  {
+    id: 7,
     name: "Call of Duty",
     category: "Gaming",
     year: 2010,
     img: "./images/CallofDuty.jpeg",
-    desc: `When I'm not outside being active or coding I spend my free time playing video games with my friends online, Call of Duty being the main one.`,
+    desc: `When I'm not outside being active or coding I spend my free time playing video games with my friends online, Call of Duty being the game of choice.`,
+  },
+  {
+    id: 8,
+    name: "Supreme",
+    category: "Fashion",
+    year: 1994,
+    img: "./images/Supreme.jpg",
+    desc: `In April 1994, Supreme opened its doors on Lafayette Street in downtown Manhattan and became the home of New York City skate culture. While it developed into a downtown institution, Supreme established itself as a brand known for its quality, style, and authenticity. Over 25 years, Supreme has expanded from its New York City origins into a global community.`,
+  },
+  {
+    id: 9,
+    name: "John Elliott",
+    category: "Fashion",
+    year: 2013,
+    img: "./images/JohnElliott.jpg",
+    desc: `John Elliott was formed in the spring of 2012 as a concept and delivered their first season in the spring of 2013. Starting with basic categories and focusing on creating functional yet modern fits with unique fabrics, the company pays attention to details that matter.`,
+  },
+  {
+    id: 10,
+    name: "Essentials",
+    category: "Fashion",
+    year: 2018,
+    img: "./images/Essentials.jpg",
+    desc: `Exuding both nuance and boldness in its approach to restrained streetwear staples, the Essentials label delivers on the promise of its namesake. Established in 2018, the Los Angeles-based brand’s straightforward logo-brandished t-shirts and sweatshirts are a welcome divergence from the flamboyant logomania that has dominated streetwise apparel.`,
   },
 ];
 
