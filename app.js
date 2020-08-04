@@ -180,51 +180,59 @@ randomBtn.addEventListener("click", function() {
 const interests = [
   {
     id: 1,
-    name: "John Elliott",
-    category: "Basics",
-    year: 2012,
+    name: "Wakeboarding",
+    category: "Sports",
+    year: 2018,
     img: "./images/JohnElliott.jpg",
-    desc: `John Elliott was formed in the spring of 2012 as a concept with my best friend and business partner, Aaron Lavee. We delivered our first season in the spring of 2013. It has been a lifelong passion project. The brand is the result of me solving the problems I had with my own wardrobe. I started with basic categories and focused on creating functional yet modern fits with unique fabrics. We pay attention to details that matter. Our french terry is custom knit in the United States to our specifications. Our zippers are sourced from RIRI in Switzerland. We travel to Japan to source and develop fabrics. We are at our production facility in Los Angeles every day overseeing the process.`
+    desc: `The past couple of summers I was given the opportunity to try out wakeboarding consistently for the first time and it really helped me develop an appreciation for watersports.`
   },
   {
     id: 2,
-    name: "Essentials, FOG",
-    category: "Basics",
-    year: 2013,
+    name: "Snowboarding",
+    category: "Sports",
+    year: 2019,
     img: "./images/Essentials.jpg",
-    desc: `Lorenzo presents a line of classic jersey tees, polos, pull-over hoodies, sweatpants, and half-zip polar fleeces in relaxed, minimal silhouettes and monochromatic palette for spring 2020. ​essentials introduces a new category of knitwear sweaters, as well as new style variations like the mock neck pull-over in subdued, earthy tones ranging from ​buttercream to oatmeal heather, gray flannel, and dark slate​.`
+    desc: `Similar to my experience with wakeboarding, I recently developed an appreciation for snow sports and went multiple weeks in the last month of winter. `
   },
   {
     id: 3,
-    name: "Supreme",
-    category: "Statement",
-    year: 1994,
+    name: "Basketball",
+    category: "Sports",
+    year: 2008,
     img: "./images/Supreme.jpg",
-    desc: `In April 1994, Supreme opened its doors on Lafayette Street in downtown Manhattan and became the home of New York City skate culture. At its core was a group of neighborhood kids, New York skaters, and local artists who became the store’s staff, crew, and customers. Over 25 years, Supreme has expanded from its New York City origins into a global community; working with generations of artists, photographers, designers, musicians, filmmakers, and writers who defied conventions and contributed to its unique identity and attitude.`
+    desc: `Basketball was the first sport I ever loved and to this day it continues to be a big part of my life. Even though my playing career is over, I began officiating intramural games to stay connected to the game and plan on officiating high school. `
   },
   {
     id: 4,
-    name: "KITH",
-    category: "Statement",
+    name: "Bowling",
+    category: "Sports",
     year: 2011,
     img: "./images/Kith.jpg",
-    desc: `KITH was founded by Ronnie Fieg, a prominent figure in the footwear industry, who has over twenty years of hands-on experience. Born and raised in Queens, Fieg has been involved with footwear since becoming a stock boy at New York-based franchise David Z. at age 12. With steadfast perseverance, he methodically rose through the ranks from floor salesman to assistant manager to eventually becoming head buyer. Conceptualizing KITH as an extension of himself, Fieg seeks to shift the current landscape of fashion, while operating under a personal philosophy of giving the consumer more than what they pay for.`
+    desc: `The summer before leaving for college my friends and I knew we had to spend as much time together as possible. We spend most of that time at our local bowling alley and we all gained a love for the game.`
   },
   {
     id: 5,
-    name: "BAPE",
-    category: "Statement",
-    year: 1993,
+    name: "Clothing",
+    category: "Fashion",
+    year: 2014,
     img: "./images/Bape.jpg",
-    desc: `Situated in the heart of Tokyo, one of the leading fashion hubs of the world, Nowhere Co., Ltd. strives to introduce Japanese fashion culture to the world. Since the brand's establishment in 1993, it has remained as a symbol of street fashion for 27 years. Thus far, it has produced iconic design items, original patterns and character such as "APE HEAD", "BAPE® CAMO", "BAPE STA™", "SHARK HOODIE" and "BABY MILO®" etc. It has now expanded into Mens', Ladies and Kids line and is carried throughout stores in Japan and also sold in US, UK, China and various Asian countries. It is well known globally and highly supported by a wide range of fashionistas.`,
+    desc: `The way I dressed was always important to me but it wasn't until I had my first job that I was really able to go out build a wardrobe that I liked and was unique to me. Whether it be from hypebeast brands such as Supreme or Bape or quality essential brands like John Elliott or FOG Essentials, each clothing piece I own has some sentimental value.`,
+  },
+  {
+    id: 5,
+    name: "Powerbuilding",
+    category: "Sports",
+    year: 2016,
+    img: "./images/Bape.jpg",
+    desc: `I started lifting when I stopped playing basketball competitively and I needed a way to stay active. After noticing the results I've been addicted ever since and even built a home gym.`,
   },
   {
     id: 6,
-    name: "BBC",
-    category: "Statement",
-    year: 2003,
+    name: "Call of Duty",
+    category: "Video Games",
+    year: 2010,
     img: "./images/BBC.jpg",
-    desc: `In 2003, Pharrell Williams partnered with fashion designer and A Bathing Ape creator, NIGO, in Japan, where they teamed up with Japanese graphic designer, Sk8thing, to create the now globally recognized fashion brand, Billionaire Boys Club which blends streetwear and luxury. Its motto is: "Wealth is of the heart and mind, not the pocket."`,
+    desc: `When I'm not outside being active or coding I spend my free time playing video games with my friends online, Call of Duty being the main one.`,
   },
 ];
 
