@@ -207,7 +207,7 @@ const interests = [
     name: "Bowling",
     category: "Sports",
     year: 2011,
-    img: "./images/bowling.png",
+    img: "./images/bowling.jpg",
     desc: `The summer before leaving for college my friends and I knew we had to spend as much time together as possible. We spend most of that time at our local bowling alley and we all gained a love for the game.`
   },
   {
