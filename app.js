@@ -177,7 +177,7 @@ randomBtn.addEventListener("click", function() {
 })
 
 // ********** interests ************
-const brands = [
+const interests = [
   {
     id: 1,
     name: "John Elliott",
@@ -225,38 +225,6 @@ const brands = [
     year: 2003,
     img: "./images/BBC.jpg",
     desc: `In 2003, Pharrell Williams partnered with fashion designer and A Bathing Ape creator, NIGO, in Japan, where they teamed up with Japanese graphic designer, Sk8thing, to create the now globally recognized fashion brand, Billionaire Boys Club which blends streetwear and luxury. Its motto is: "Wealth is of the heart and mind, not the pocket."`,
-  },
-  {
-    id: 7,
-    name: "CDG Play",
-    category: "Basics",
-    year: 2003,
-    img: "./images/CDG.jpg",
-    desc: `COMME des GARÇONS, meaning “like boys” in French, is a Japanese fashion label founded by Rei Kawakubo. Renowned for its avant garde aesthetic and unconventional silhouettes, Kawakubo transformed the brand into a successful fashion label. CDG is headquartered in Tokyo's Aoyama district, with a strong worldwide presence.`,
-  },
-  {
-    id: 8,
-    name: "All Saints",
-    category: "Basics",
-    year: 1994,
-    img: "./images/AllSaints.png",
-    desc: `Established in 1994, AllSaints is a premium British fashion house, best known for its iconic biker jackets, creating clothing and accessories for men and women. AllSaints operates within a culture of innovation and design with an independent spirit, from its East London atelier to the in-house design and construction of AllSaints'​ digital and physical stores.`,
-  },
-  {
-    id: 9,
-    name: "Palace",
-    category: "Statement",
-    year: 2009,
-    img: "./images/Palace.png",
-    desc: `Palace Skateboards (or Palace) is a London-based skateboard shop and clothing brand established in 2009. The brand was primarily heavily worn by founder Levent Tanju and his skate team, Palace Wayward Boys Choir. Palace focuses on skate wear with heavy 1990s and pop culture influences alongside VHS style clothing advertisements and skateboard videos of their skate team. `,
-  },
-  {
-    id: 10, 
-    name: "Pangaia",
-    category: "Basics",
-    year: "N/A",
-    img: "./images/Pangaia.jpg",
-    desc: `PANGAIA is a direct-to-consumer materials science company bringing breakthrough textile innovations and patents into the world through everyday lifestyle products. Every technology we work with aims to solve an environmental problem of the fashion/apparel & nature industry. We hope to drive these solutions further by making technologies and materials available to companies across different industries. By introducing these innovations, we design materials, products and experiences for everyday and everyone. `,
   },
 ];
 
