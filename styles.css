@@ -697,7 +697,6 @@ Interests
   background: var(--clr-grey-9);
   border: var(--clr-secondary);
   font-size: 1rem;
-  text-transform: capitalize;
   margin: 0 0.5rem;
   letter-spacing: 1px;
   border-radius: var(--radius);
@@ -705,7 +704,9 @@ Interests
   color: var(--clr-grey-9);
   cursor: pointer;
   transition: var(--transition);
-
+  text-transform: capitalize;
+  border-color: var(--clr-secondary);
+  cursor: pointer;
 }
 .filter-btn:hover {
   background: var(--clr-primary-10);
