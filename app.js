@@ -233,34 +233,34 @@ const container = document.querySelector('.interests-btn-container')
   
 // load items
 window.addEventListener('DOMContentLoaded', function () {
-  displayBrandItems(brands);
-  displayBrandButtons();
+  displayInterests(interests);
+  displayInterestsButtons();
 });
   
-function displayBrandItems(brands) {
-  let displayBrand = brands.map(function (brand) {
+function displayInterests(interests) {
+  let displayInterest = interests.map(function (interest) {
     return `<article class="brand">
-      <img src=${brand.img} class="photo" alt=${brand.name} />
+      <img src=${interest.img} class="photo" alt=${interest.name} />
       <div class="brand-info">
         <header>
-          <h4>${brand.name}</h4>
-          <h4 class="year">Est. ${brand.year} </h4>
+          <h4>${interest.name}</h4>
+          <h4 class="year">Est. ${interest.year} </h4>
         </header>
         <p class="brand-text">
-          ${brand.desc}
+          ${interest.desc}
         </p>
       </div>
     </article>`
   });
-  displayBrand = displayBrand.join("");
-  sectionCenter.innerHTML = displayBrand;
+  displayInterest = displayInterest.join("");
+  sectionCenter.innerHTML = displayInterest;
 }  
   
-function displayBrandButtons() {
-  const categories = brands.reduce(
-    function(values,brand){
-      if(!values.includes(brand.category)) {
-        values.push(brand.category);
+function displayInterestsButtons() {
+  const categories = interests.reduce(
+    function(values,interest){
+      if(!values.includes(interest.category)) {
+        values.push(interest.category);
       }
       return values; 
     },['all']
@@ -276,15 +276,15 @@ function displayBrandButtons() {
   filterBtns.forEach(function (btn) {
     btn.addEventListener('click', function (e) {
       const category = e.currentTarget.dataset.id;
-      const brandCategory = brands.filter(function (brand) {
-        if (brand.category === category) {
-          return brand;
+      const interestCategory = interests.filter(function (interest) {
+        if (interest.category === category) {
+          return interest;
         }
       });
       if(category === 'all') {
-        displayBrandItems(brands);
+        displayInterests(interests);
       } else {
-        displayBrandItems(brandCategory);
+        displayInterests(interestCategory);
       }
     });
   });
