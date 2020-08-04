@@ -108,7 +108,7 @@ const projects = [
       name: "Gymshark Bot",
       language: "Python",
       img:
-        "./images/Gymshark.png",
+        "https://github.com/gilescarlos/gilescarlos.github.io/tree/master/images/Gymshark.png",
       text:
         "Created a script that automates the checkout process on the Gymshark website using the Selenium package for Python which is an open-source web-based automation tool.",
     },
@@ -117,7 +117,7 @@ const projects = [
       name: "Solar Powered Portable Charger",
       language: "Python",
       img:
-        "./images/RaspberryPi.png",
+        "https://github.com/gilescarlos/gilescarlos.github.io/tree/master/images/RaspberryPi.png",
       text:
         "A fellow UCI student and I utilized a Servo Motor, Raspberry Pi 4, solar panels, and Python to create a portable charger.",
     },
