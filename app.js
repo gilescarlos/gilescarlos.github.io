@@ -239,14 +239,14 @@ window.addEventListener('DOMContentLoaded', function () {
   
 function displayInterests(interests) {
   let displayInterest = interests.map(function (interest) {
-    return `<article class="brand">
+    return `<article class="interest">
       <img src=${interest.img} class="photo" alt=${interest.name} />
-      <div class="brand-info">
+      <div class="interest-info">
         <header>
           <h4>${interest.name}</h4>
           <h4 class="year">Est. ${interest.year} </h4>
         </header>
-        <p class="brand-text">
+        <p class="interest-text">
           ${interest.desc}
         </p>
       </div>

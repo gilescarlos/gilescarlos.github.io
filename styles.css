@@ -673,7 +673,7 @@ main {
 Interests
 ===============
 */
-.brands {
+.interests {
   padding: 5rem 0;
 }
 .title {
@@ -717,7 +717,7 @@ Interests
   gap: 3rem 2rem;
   justify-items: center;
 }
-.brand {
+.interest {
   display: grid;
   gap: 1rem 2rem;
   max-width: 25rem;
@@ -728,24 +728,24 @@ Interests
   border: 0.25rem solid var(--clr-gold);
   border-radius: var(--radius);
 }
-.brand-info header {
+.interest-info header {
   display: flex;
   justify-content: space-between;
   border-bottom: 0.5px dotted var(--clr-grey-5);
 }
-.brand-info h4 {
+.interest-info h4 {
   margin-bottom: 0.5rem;
 }
 .year {
   color: var(--clr-gold);
 }
-.brand-text {
+.interest-text {
   margin-bottom: 0;
   padding-top: 1rem;
 }
 
 @media screen and (min-width: 768px) {
-  .brand {
+  .interest {
     grid-template-columns: 225px 1fr;
     gap: 0 1.25rem;
     max-width: 40rem;
