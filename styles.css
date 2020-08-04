@@ -640,7 +640,7 @@ main {
 }
 .prev-btn,
 .next-btn {
-  color: var(--clr-primary-7);
+  color: var(--clr-secondary);
   font-size: 1.25rem;
   background: transparent;
   border-color: transparent;
@@ -654,8 +654,8 @@ main {
 }
 .random-btn {
   margin-top: 0.5rem;
-  background: var(--clr-primary-10);
-  color: var(--clr-primary-5);
+  background: var(--clr-grey-9);
+  border-color: var(--clr-secondary);
   padding: 0.25rem 0.5rem;
   text-transform: capitalize;
   border-radius: var(--radius);
@@ -693,8 +693,8 @@ Interests
   justify-content: center;
 }
 .filter-btn {
-  background: transparent;
-  border-color: var(--clr-gold);
+  background: var(--clr-grey-9);
+  border-color: var(--clr-secondary);
   font-size: 1rem;
   text-transform: capitalize;
   margin: 0 0.5rem;
@@ -742,6 +742,7 @@ Interests
 .interest-text {
   margin-bottom: 0;
   padding-top: 1rem;
+  color: var(--clr-white);
 }
 
 @media screen and (min-width: 768px) {
