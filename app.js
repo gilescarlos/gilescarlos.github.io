@@ -229,7 +229,7 @@ const interests = [
   {
     id: 6,
     name: "Call of Duty",
-    category: "Video Games",
+    category: "Gaming",
     year: 2010,
     img: "./images/CallofDuty.jpeg",
     desc: `When I'm not outside being active or coding I spend my free time playing video games with my friends online, Call of Duty being the main one.`,
