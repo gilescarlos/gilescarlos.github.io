@@ -126,7 +126,7 @@ const projects = [
   // select items by the id in the html file
   const img = document.getElementById('project-img');
   const project = document.getElementById('project');
-  const language = document.getElementById('job');
+  const language = document.getElementById('language');
   const info = document.getElementById('info');
   
   // store the button elements with the button variables
