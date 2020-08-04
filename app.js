@@ -183,7 +183,7 @@ const interests = [
     name: "Wakeboarding",
     category: "Sports",
     year: 2018,
-    img: "./images/JohnElliott.jpg",
+    img: "https://github.com/gilescarlos/gilescarlos.github.io/tree/master/images/wakeboarding.jpg",
     desc: `The past couple of summers I was given the opportunity to try out wakeboarding consistently for the first time and it really helped me develop an appreciation for watersports.`
   },
   {
@@ -191,7 +191,7 @@ const interests = [
     name: "Snowboarding",
     category: "Sports",
     year: 2019,
-    img: "./images/Essentials.jpg",
+    img: "https://github.com/gilescarlos/gilescarlos.github.io/tree/master/images/snowboarding.jpg",
     desc: `Similar to my experience with wakeboarding, I recently developed an appreciation for snow sports and went multiple weeks in the last month of winter. `
   },
   {
@@ -207,7 +207,7 @@ const interests = [
     name: "Bowling",
     category: "Sports",
     year: 2011,
-    img: "./images/Kith.jpg",
+    img: "https://github.com/gilescarlos/gilescarlos.github.io/tree/master/images/bowling.png",
     desc: `The summer before leaving for college my friends and I knew we had to spend as much time together as possible. We spend most of that time at our local bowling alley and we all gained a love for the game.`
   },
   {
@@ -215,15 +215,15 @@ const interests = [
     name: "Clothing",
     category: "Fashion",
     year: 2014,
-    img: "./images/Bape.jpg",
-    desc: `The way I dressed was always important to me but it wasn't until I had my first job that I was really able to go out build a wardrobe that I liked and was unique to me. Whether it be from hypebeast brands such as Supreme or Bape or quality essential brands like John Elliott or FOG Essentials, each clothing piece I own has some sentimental value.`,
+    img: "https://github.com/gilescarlos/gilescarlos.github.io/tree/master/images/Kith.jpg",
+    desc: `The way I dressed was always important to me but it wasn't until I had my first job that I was really able to go out build a wardrobe that I liked and was unique to me. Whether it be from hypebeast brands such as Supreme or KITH or quality essential brands like John Elliott or FOG Essentials, each clothing piece I own has some sentimental value.`,
   },
   {
     id: 5,
     name: "Powerbuilding",
     category: "Sports",
     year: 2016,
-    img: "./images/Bape.jpg",
+    img: "https://github.com/gilescarlos/gilescarlos.github.io/tree/master/images/Weights.jpeg",
     desc: `I started lifting when I stopped playing basketball competitively and I needed a way to stay active. After noticing the results I've been addicted ever since and even built a home gym.`,
   },
   {
@@ -231,7 +231,7 @@ const interests = [
     name: "Call of Duty",
     category: "Video Games",
     year: 2010,
-    img: "./images/BBC.jpg",
+    img: "https://github.com/gilescarlos/gilescarlos.github.io/tree/master/images/CallofDuty.jpeg",
     desc: `When I'm not outside being active or coding I spend my free time playing video games with my friends online, Call of Duty being the main one.`,
   },
 ];
