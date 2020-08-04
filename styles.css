@@ -723,7 +723,7 @@ Interests
   max-width: 25rem;
 }
 .photo {
-  object-fit: cover;
+  object-fit: contain;
   height: 200px;
   border: 0.25rem solid var(--clr-gold);
   border-radius: var(--radius);

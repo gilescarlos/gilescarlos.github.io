@@ -199,7 +199,7 @@ const interests = [
     name: "Basketball",
     category: "Sports",
     year: 2008,
-    img: "./images/Supreme.jpg",
+    img: "./images/basketball.jpg",
     desc: `Basketball was the first sport I ever loved and to this day it continues to be a big part of my life. Even though my playing career is over, I began officiating intramural games to stay connected to the game and plan on officiating high school. `
   },
   {
