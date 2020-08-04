@@ -532,7 +532,7 @@ About
 }
 .tab-btn:hover:not(.active) {
   background: var(--clr-primary-10);
-  color: var(--clr-primary-5);
+  color: var(--clr-primary-1);
 }
 .about-content {
   border-bottom-left-radius: var(--radius);
@@ -664,8 +664,8 @@ main {
   cursor: pointer;
 }
 .random-btn:hover {
-  background: var(--clr-white);
-  color: var(--clr-secondary);
+  background: var(--clr-primary-10);
+  color: var(--clr-primary-1);
 }
 
 /*
@@ -706,7 +706,7 @@ Interests
   transition: var(--transition);
 }
 .filter-btn:hover {
-  background: var(--clr-white);
+  background: var(--clr-primary-10);
   color: var(--clr-primary-1);
 }
 .interests-section-center {
