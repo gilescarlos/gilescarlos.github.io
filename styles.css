@@ -291,6 +291,7 @@ Scroll
 nav {
   background: var(--clr-white);
   padding: 1rem 1.5rem;
+  z-index: 999;
 }
 .nav-header {
   display: flex;
