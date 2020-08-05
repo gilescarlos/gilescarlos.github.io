@@ -600,6 +600,8 @@ main {
   object-fit: cover;
   border-radius: 50%;
   position: relative;
+  z-index: 1;
+
 }
 .img-container::after {
   font-family: "Font Awesome 5 Free";
@@ -616,6 +618,8 @@ main {
   transform: translateY(25%);
   background: var(--clr-primary-2);
   color: var(--clr-white);
+  z-index: 2;
+
 }
 .img-container::before {
   content: "";
@@ -626,6 +630,7 @@ main {
   top: -0.25rem;
   right: -0.5rem;
   border-radius: 50%;
+  z-index: 0;
 }
 #project {
   margin-bottom: 0.25rem;
@@ -651,7 +656,7 @@ main {
 }
 .prev-btn:hover,
 .next-btn:hover {
-  color: var(--clr-primary-2);
+  color: var(--clr-grey-9);
 }
 .random-btn {
   margin-top: 0.5rem;
@@ -701,7 +706,7 @@ Interests
   letter-spacing: 1px;
   border-radius: var(--radius);
   padding: 0.375rem 0.75rem;
-  color: var(--clr-grey-9);
+  color: var(--clr-primary-2);
   cursor: pointer;
   transition: var(--transition);
   text-transform: capitalize;
