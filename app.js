@@ -121,6 +121,15 @@ const projects = [
       text:
         "A fellow UCI student and I utilized a Servo Motor, Raspberry Pi 4, solar panels, and Python to create a portable charger.",
     },
+    {
+      id: 3,
+      name: "Twitter Scraping",
+      language: "Python",
+      img:
+        "./images/twitter.jpg",
+      text:
+        "Utilized Tweepy, an easy-to-use Python library for accessing the Twitter API, to introduce myself to web scraping and for sentiment analysis.",
+    },
   ];
   
 // select items by the id in the html file
