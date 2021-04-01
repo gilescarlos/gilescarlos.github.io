@@ -114,21 +114,21 @@ const projects = [
     },
     {
       id: 2,
-      name: "Solar Powered Portable Charger",
-      language: "Python",
+      name: "Goals Application",
+      language: "HTML, CSS, Javascript",
       img:
         "./images/RaspberryPi.png",
       text:
-        "A fellow UCI student and I utilized a Servo Motor, Raspberry Pi 4, solar panels, and Python to create a portable charger.",
+        "Using HTML, CSS, and Javascript I created a goals application that allows users to list items that they hope to purchase in the future.",
     },
     {
       id: 3,
-      name: "Twitter Scraping",
+      name: "Image Recognition",
       language: "Python",
       img:
         "./images/twitter.jpg",
       text:
-        "Utilized Tweepy, an easy-to-use Python library for accessing the Twitter API, to introduce myself to web scraping and for sentiment analysis.",
+        "Utilizing the Face Recognition library, I created a script that determined who is in a particular photo given photos of known individuals.",
     },
   ];
   
