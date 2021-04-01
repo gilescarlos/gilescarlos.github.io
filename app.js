@@ -117,7 +117,7 @@ const projects = [
       name: "Goals Application",
       language: "HTML, CSS, Javascript",
       img:
-        "./images/RaspberryPi.png",
+        "./images/goals.png",
       text:
         "Using HTML, CSS, and Javascript I created a goals application that allows users to list items that they hope to purchase in the future.",
     },
@@ -126,7 +126,7 @@ const projects = [
       name: "Image Recognition",
       language: "Python",
       img:
-        "./images/twitter.jpg",
+        "./images/facial-recognition.png",
       text:
         "Utilizing the Face Recognition library, I created a script that determined who is in a particular photo given photos of known individuals.",
     },
